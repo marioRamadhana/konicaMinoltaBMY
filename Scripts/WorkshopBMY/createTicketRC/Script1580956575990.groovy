@@ -64,11 +64,11 @@ WebUI.click(findTestObject('Object Repository/CreateTicketRC/input_CMSP_is_consu
 
 WebUI.setText(findTestObject('Object Repository/CreateTicketRC/input__remarks'), 'CEK')
 
-WebUI.click(findTestObject('Object Repository/CreateTicketRC/button_x'))
+not_run: WebUI.click(findTestObject('Object Repository/CreateTicketRC/button_x'))
 
-WebUI.click(findTestObject('Object Repository/CreateTicketRC/button_Save'))
+not_run: WebUI.click(findTestObject('Object Repository/CreateTicketRC/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/CreateTicketRC/a_Yes'))
+not_run: WebUI.click(findTestObject('Object Repository/CreateTicketRC/a_Yes'))
 
 not_run: WebUI.closeBrowser()
 
