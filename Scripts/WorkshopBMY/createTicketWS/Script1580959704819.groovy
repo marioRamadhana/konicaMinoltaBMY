@@ -18,7 +18,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://ccrm.konicaminolta.com.my/km_ws_testing/auth')
 
-WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input_Sparepart Workshop and RC Center_username'), 'pjte018')
+WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input_Sparepart Workshop and RC Center_username'), 'PJTE018')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/CreateTicketWS/input_Sparepart Workshop and RC Center_password'), 
     '+Yp4bihX3nk=')
@@ -29,21 +29,21 @@ WebUI.click(findTestObject('Object Repository/CreateTicketWS/a_Ticket Management
 
 WebUI.click(findTestObject('Object Repository/CreateTicketWS/a_Create Ticket Workshop'))
 
-WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input__cinfo_customer_serial'), 'SERIALNOPTE018')
+WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input__cinfo_customer_serial'), 'SERIALNUMBER321')
 
-WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input_Item No_cinfo_customer_itemno'), 'ITEMNOPJTE018')
+WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input_Item No_cinfo_customer_itemno'), 'ITEMNUMBER321')
 
-WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input_Customer Code_cinfo_customer_code'), 'CCPJTE018')
+WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input_Customer Code_cinfo_customer_code'), 'ITEMNUMBER321')
 
-WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input__cinfo_customer_name'), 'PJTE018 ESWARAN WS 2')
+WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input__cinfo_customer_name'), 'ESWARAN AUTO WS 5')
 
-WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input__cinfo_customer_machinemodel'), 'BIZHUB')
+WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input__cinfo_customer_machinemodel'), 'bizhub')
 
 WebUI.click(findTestObject('Object Repository/CreateTicketWS/b__icon-search'))
 
-WebUI.click(findTestObject('Object Repository/CreateTicketWS/td_BIZHUB PRESS C6000'))
+WebUI.click(findTestObject('Object Repository/CreateTicketWS/td_BIZHUB PRESS C8000'))
 
-WebUI.doubleClick(findTestObject('Object Repository/CreateTicketWS/td_BIZHUB PRESS C6000'))
+WebUI.doubleClick(findTestObject('Object Repository/CreateTicketWS/td_BIZHUB PRESS C8000'))
 
 WebUI.click(findTestObject('Object Repository/CreateTicketWS/a_Add Item'))
 
@@ -51,25 +51,17 @@ WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input_Search Spar
 
 WebUI.click(findTestObject('Object Repository/CreateTicketWS/button_Search'))
 
-WebUI.click(findTestObject('Object Repository/CreateTicketWS/td_08AA85512'))
-
-WebUI.click(findTestObject('Object Repository/CreateTicketWS/button_Add'))
+WebUI.doubleClick(findTestObject('Object Repository/CreateTicketWS/td_08AA85512'))
 
 WebUI.click(findTestObject('Object Repository/CreateTicketWS/button_Esc'))
 
 WebUI.click(findTestObject('Object Repository/CreateTicketWS/button_'))
 
-
-
-
-
-
-
 WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input_Photo Sensor_input_qty1'), '2')
 
 WebUI.click(findTestObject('Object Repository/CreateTicketWS/input_CMSP_is_consume1'))
 
-WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input__remarks'), 'TESTING PJTE018 ESWARAN WORKSHOP')
+WebUI.setText(findTestObject('Object Repository/CreateTicketWS/input__remarks'), 'ESWARAN WS TESTING 20200206')
 
 WebUI.click(findTestObject('Object Repository/CreateTicketWS/button_Esc'))
 
